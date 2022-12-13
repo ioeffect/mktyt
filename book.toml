@@ -1,0 +1,12 @@
+[book]
+authors = ["Михаил Л.", "Михалыч"]
+language = "ru"
+multilingual = false
+src = "src"
+title = "Программирование МК AVR"
+description = "Серия конспектов по программированию МК AVR."
+
+[output.html]
+theme = "src/theme"
+default-theme = "rust"
+curly-quotes = true
