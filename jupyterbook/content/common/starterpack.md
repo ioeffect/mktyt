@@ -17,10 +17,10 @@
 - [AVRDUDE](http://download.savannah.gnu.org/releases/avrdude/) --- загрузчик прошивки на железо.
 ````
 ````{tab} Linux
-- Пакеты:
-  - `avr-gcc` --- компилятор.
-  - `avr-libc` --- реализация стандартной библиотеки.
-  - `avrdude` --- загрузчик прошивки на железо.
+Пакеты:
+- `avr-gcc` --- компилятор.
+- `avr-libc` --- реализация стандартной библиотеки.
+- `avrdude` --- загрузчик прошивки на железо.
 ````
 ````{tab} MacOS
 - [MPLAB X](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide) --- IDE
