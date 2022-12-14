@@ -35,3 +35,5 @@ sphinx:
   config:
     language: ru
     html_show_copyright: false
+  extra_extensions:
+    - sphinx_inline_tabs

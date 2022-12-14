@@ -11,19 +11,20 @@
 
 ### Софт
 
-- **Для виндузятников:**
-  - [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio) --- IDE
-  - [Proteus](https://www.labcenter.com/downloads/) --- песочница
-  - [AVRDUDE](http://download.savannah.gnu.org/releases/avrdude/) --- загрузчик прошивки на железо
-- **Для юникс подобных гномов:**
-  - Debian: `apt-get install avr-gcc avr-libc avrdude`. Текстовый редактор 
-  на ваше разумение -- я использую [neovim](http://neovim.io/) с накаченным
-  [astronvim](https://astronvim.github.io/)'мом, а также одной самопальной тулзой.
-- **Для тех и этих**
-  - [MPLAB X](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide) --- IDE
-
-Лучше используйте Windows, так как под Линуху нету таких программ, 
-как Proteus. 
+````{tab} Windows
+- [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio) --- IDE.
+- [Proteus](https://www.labcenter.com/downloads/) --- песочница.
+- [AVRDUDE](http://download.savannah.gnu.org/releases/avrdude/) --- загрузчик прошивки на железо.
+````
+````{tab} Linux
+- Пакеты:
+  - `avr-gcc` --- компилятор.
+  - `avr-libc` --- реализация стандартной библиотеки.
+  - `avrdude` --- загрузчик прошивки на железо.
+````
+````{tab} MacOS
+- [MPLAB X](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide) --- IDE
+````
 
 ### Инструменты
 
