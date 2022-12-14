@@ -34,3 +34,4 @@ html:
 sphinx:
   config:
     language: ru
+    html_show_copyright: false
