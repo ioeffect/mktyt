@@ -14,7 +14,7 @@
 ````{tab} Windows
 - [Microchip Studio](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio) --- IDE.
 - [Proteus](https://www.labcenter.com/downloads/) --- песочница.
-- [AVRDUDE](http://download.savannah.gnu.org/releases/avrdude/) --- загрузчик прошивки на железо.
+- SinaProg
 ````
 ````{tab} Linux
 Пакеты:
