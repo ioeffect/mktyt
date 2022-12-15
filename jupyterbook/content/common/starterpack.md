@@ -42,16 +42,19 @@
 
 - [Резисторы](https://aliexpress.ru/item/1005002631550177.html)
   - [По номиналам](https://aliexpress.ru/item/32847096736.html) --- нам нужны в основном 220R и 10k
+  - [Фоторезисторы](https://aliexpress.ru/item/32976469984.html)
 - Конденсаторы:
   - [Электролитические](https://aliexpress.ru/item/32954751214.html)
   - [Электролитические](https://aliexpress.ru/item/32954751214.html)
 - [Светодиоды](https://aliexpress.ru/item/1005002603397361.html)
   - Опц. [RGB-светодиоды](https://aliexpress.ru/item/32757977782.html)
+- [Диоды](https://aliexpress.ru/item/1005003412332629.html) Шоттки
 - [Кнопки](https://aliexpress.ru/item/1005003158623433.html)
   - Опц. [Переключатели](https://aliexpress.ru/item/1005003938856402.html)
 - [Потенциометр](https://aliexpress.ru/item/1871188517.html)
 - [8-ми сегментный индикатор](https://aliexpress.ru/item/1005001861041699.html)
 - [Транзисторы](https://aliexpress.ru/item/32630943547.html)
+  - [Набором](https://aliexpress.ru/item/32856312651.html)
 
 ### Микроконтроллеры
 
@@ -69,6 +72,7 @@
 ### Всякое
 
 - [Энкодер](https://aliexpress.ru/item/32915420023.html)
+- [Набор логических микросхем](https://aliexpress.ru/item/1005004291048040.html)
 
 ### Дисплеи
 
