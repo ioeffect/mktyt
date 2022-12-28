@@ -21,7 +21,7 @@ latex:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/kxyzd/mktyt
+  url: https://github.com/dx3mod/mktyt
   path_to_book: jupyterbook
 
 # Add GitHub buttons to your book
