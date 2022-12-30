@@ -4,11 +4,11 @@
 format: jb-book
 root: intro
 parts:
-  - caption: Старт 
+  - caption: Основное
     chapters:
       - file: content/introduction/introduction
         sections:
-          - file: content/introduction/what_is_mk
+          - file: content/introduction/attiny2313
   - caption: Общие
     chapters:
     - file: content/common/starterpack
