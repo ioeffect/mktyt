@@ -1,16 +1,9 @@
 # Здравствуйте!
 
-```cpp
-#define pinLED 12
-#define pinBtn 10
+Вот мы и начинаем наше постепенное знакомство с микроконтроллерами семейства
+AVR. Рассматривать мы всё(или почти всё) будет на примере микроконтроллера
+ATtiny2313, но Вы можете использовать любой другой, так как, понимая принцип,
+перенести наши примеры вам не составит никакого труда. 
 
-void setup() {
-  pinMode(pinLED, OUTPUT);
-  pinMode(pinBtn, INPUT_PULLUP);
-}
+...
 
-void loop() {
-  const auto btnState = !digitalRead(pinBtn);
-  digitalWrite(pinLED, btnState);
-}
-```

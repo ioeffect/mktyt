@@ -333,20 +333,11 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
 <h1>Здравствуйте!<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">#</a></h1>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#define pinLED 12</span>
-<span class="cp">#define pinBtn 10</span>
-
-<span class="kt">void</span><span class="w"> </span><span class="nf">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="n">pinMode</span><span class="p">(</span><span class="n">pinLED</span><span class="p">,</span><span class="w"> </span><span class="n">OUTPUT</span><span class="p">);</span><span class="w"></span>
-<span class="w">  </span><span class="n">pinMode</span><span class="p">(</span><span class="n">pinBtn</span><span class="p">,</span><span class="w"> </span><span class="n">INPUT_PULLUP</span><span class="p">);</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-
-<span class="kt">void</span><span class="w"> </span><span class="nf">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">  </span><span class="k">const</span><span class="w"> </span><span class="k">auto</span><span class="w"> </span><span class="n">btnState</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">!</span><span class="n">digitalRead</span><span class="p">(</span><span class="n">pinBtn</span><span class="p">);</span><span class="w"></span>
-<span class="w">  </span><span class="n">digitalWrite</span><span class="p">(</span><span class="n">pinLED</span><span class="p">,</span><span class="w"> </span><span class="n">btnState</span><span class="p">);</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-</pre></div>
-</div>
+<p>Вот мы и начинаем наше постепенное знакомство с микроконтроллерами семейства
+AVR. Рассматривать мы всё(или почти всё) будет на примере микроконтроллера
+ATtiny2313, но Вы можете использовать любой другой, так как, понимая принцип,
+перенести наши примеры вам не составит никакого труда.</p>
+<p>…</p>
 </section>
 
     <script type="text/x-thebe-config">
