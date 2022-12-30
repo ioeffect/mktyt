@@ -9,6 +9,7 @@ parts:
       - file: content/introduction/introduction
         sections:
           - file: content/introduction/attiny2313
+          - file: content/introduction/devenv
   - caption: Общие
     chapters:
     - file: content/common/starterpack
