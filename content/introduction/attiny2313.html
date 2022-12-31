@@ -344,6 +344,11 @@ title="Print to PDF"
    ATtiny2313
   </a>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#avr">
+   Особенности языка Си под платформу AVR
+  </a>
+ </li>
 </ul>
 
     </nav>
@@ -366,6 +371,11 @@ title="Print to PDF"
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#attiny2313">
    ATtiny2313
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#avr">
+   Особенности языка Си под платформу AVR
   </a>
  </li>
 </ul>
@@ -392,8 +402,8 @@ ATtiny2313, но вы можете использовать любой друг�
 руководством. Она предполагает, что вы знаете того, чего хотите, и можете это
 применять. Только в таком подходе она полезна, ибо в ином вы потратите только
 время на разборки с этой горой электронных страниц.</p>
-<p>На этом всё, если вас не интересует ATtiny2313, можете переходить к следующей
-главе.</p>
+<!-- На этом всё, если вас не интересует ATtiny2313, можете переходить к следующей -->
+<!-- главе.  -->
 <!-- Мы, как и говорилось ранее, опустим многие моменты во введение, которые можно -->
 <!-- услышать на очных занятиях, либо раз вы нашли этот сайт, то уже знаете, что -->
 <!-- вы хотите. Поэтому и мы не хотим тормозить развитие сюжета этими деталями.  -->
@@ -413,6 +423,50 @@ ATtiny2313, но вы можете использовать любой друг�
 и внешнею EEPROM память тоже на 128 байт с возможными 100 000 перезаписями.</p>
 <p>Пока нам этой информации хватит, но всё таки рекомендуется посмотреть первые
 пару страниц даташита, а также изучить распиновку.</p>
+</section>
+<section id="avr">
+<h2>Особенности языка Си под платформу AVR<a class="headerlink" href="#avr" title="Ссылка на этот заголовок">#</a></h2>
+<p>Изучение программирования под микроконтроллеры AVR мы будем на примере языка
+программирования Си. В действительности это тот же самый Си, что вы встретите
+под PC платформой. Отличия тут лишь в размерах примитивных типов, что вытекают
+из архитектуры устройства, а также в форме стандартной библиотеки, так как
+уровень у нас другой да и задачи другие.</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:left head"><p>Тип</p></th>
+<th class="text-align:right head"><p>Размер</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">char</span></code></p></td>
+<td class="text-align:right"><p>1 байт (-128..127)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">unsigned</span> <span class="pre">char</span></code></p></td>
+<td class="text-align:right"><p>1 байт (0..255)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">int</span></code></p></td>
+<td class="text-align:right"><p>2 байта (-32768..32767)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">unsigned</span> <span class="pre">int</span></code></p></td>
+<td class="text-align:right"><p>2 байта (0..65535)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">long</span></code></p></td>
+<td class="text-align:right"><p>4 байта</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">unsigned</span> <span class="pre">long</span></code></p></td>
+<td class="text-align:right"><p>4 байта</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">float</span></code></p></td>
+<td class="text-align:right"><p>4 байта</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p><code class="docutils literal notranslate"><span class="pre">double</span></code></p></td>
+<td class="text-align:right"><p>8 байта</p></td>
+</tr>
+</tbody>
+</table>
+<p>Вещественные типы на большинстве МК не реализуются аппаратно, из-за чего они
+реализуются программно, что в разы менее эффективно. Их использование
+увеличивает код программы, а также снижает производительность.</p>
 </section>
 </section>
 
