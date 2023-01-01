@@ -40,6 +40,10 @@
 [^ansic]: ANSI C
 [^nud]: Нудятина
 
+##### Лицензия 
+
+Данный материал распространяется под лицензией [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
 <!-- ```{tableofcontents} -->
 <!-- ``` -->
 
